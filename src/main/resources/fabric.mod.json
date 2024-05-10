@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cookieclicker",
+  "version": "${version}",
+
+  "name": "Cookie Clicker Minecraft Mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cookieclicker/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+      "mixins": [
+        "cookieclicker.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
