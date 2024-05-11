@@ -1,4 +1,6 @@
 {
-  "item.cookieclicker.cookieclickeritem" : "Cookie Clicker",
-  "item.cookieclicker.cookieclickeritem.tooltip" : "full of flavor!"
+  "item.cookieclicker.cookieclicker" : "Cookie Clicker",
+  "item.cookieclicker.cookieclicker.tooltip" : "full of flavor!",
+  "block.cookieclicker.cookie_jar" : "Cookie Jar",
+  "item.cookieclicker.cookie_jar.tooltip" : "Cookies: %d"
 }

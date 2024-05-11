@@ -1,7 +1,9 @@
 package me.penguj.cookieclicker.item;
 
 import me.penguj.cookieclicker.CookieClicker;
+import me.penguj.cookieclicker.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
@@ -23,7 +25,8 @@ public class ModItems {
     }
     public static void registerModItems() {
         CookieClicker.LOGGER.debug("Registering mod items!");
-        cookieclikeritem = registerItem("cookieclickeritem", new CookieClickerItem(new Item.Settings()));
+        cookieclikeritem = registerItem("cookieclicker", new CookieClickerItem(new Item.Settings()));
         setItemGroup(cookieclikeritem, ItemGroups.FOOD_AND_DRINK);
+        registerItem("cookie_jar", new CookieJarItem(ModBlocks.cookie_jar, new Item.Settings()));
     }
 }

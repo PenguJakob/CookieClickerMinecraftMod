@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cookieclicker:block/cookie_jar" }
+  }
+}
